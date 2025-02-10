@@ -29,7 +29,7 @@ mongoose
     console.log("Mongodb connected successfully!");
     // making express app a listener --> server will listen only after successful db conection
     try {
-      app.listen(PORT, () => {
+      app.listen(PORT, "0.0.0.0", () => {
         console.log(`Server is running on port:http://localhost:${PORT}`);
       });
     } catch (error) {
