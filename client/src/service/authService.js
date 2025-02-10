@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const AUTH_URL = "http://localhost:3000/api/user";
+// const AUTH_URL = "http://localhost:3000/api/user";
+const AUTH_URL = "https://event-management-api-ten.vercel.app/api/user";
 
 const registerApi = async (userData) => {
   try {
