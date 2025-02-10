@@ -15,7 +15,7 @@ const MONGO_URI = process.env.MONGO_URI;
 
 // middlewars
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:5173", credentials: true }));
+app.use(cors({ origin: "https://event-management-nu-ruddy.vercel.app", credentials: true }));
 app.use(cookieParser());
 
 // routes
