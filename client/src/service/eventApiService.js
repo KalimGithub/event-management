@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/dashboard";
+// const API_URL = "http://localhost:3000/api/dashboard";
+const API_URL = "https://event-management-api-ten.vercel.app/api/dashboard";
 
 const dashboardApi = async () => {
   try {
