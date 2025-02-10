@@ -10,7 +10,7 @@ import eventRouter from "./routes/event.routes.js";
 
 // constants
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 18013;
 const MONGO_URI = process.env.MONGO_URI;
 
 // middlewars
